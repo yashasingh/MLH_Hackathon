@@ -1,5 +1,6 @@
 import cam_image
 
+# script for data-set creation
 a = cam_image.frames()
 temp = a.check()
 count = 0
@@ -15,3 +16,4 @@ while(temp):
 		count+=1
 
 a.close()
+"""
